@@ -60,10 +60,6 @@ public class EncryptDecrypt {
         return new String(decryptedBytes);
     }
 
-    public static String encodeImage(String imagePath) throws IOException {
-        byte[] data = Files.readAllBytes(Paths.get(imagePath));
-        return Base64.getEncoder().encodeToString(data);
-    }
 
     public static String encryptImageToBase64(BufferedImage image) {
         try {
@@ -77,14 +73,6 @@ public class EncryptDecrypt {
         }
     }
 
-    public static String encryptImageToBase642(String imagePath) throws IOException {
-        byte[] data = Files.readAllBytes(Paths.get(imagePath));
-        return Base64.getEncoder().encodeToString(data);
-    }
-
-    public static byte[] base64ToBufferedImage2(String base64Image) {
-        return Base64.getDecoder().decode(base64Image);
-    }
 
     public static BufferedImage base64ToBufferedImage(String base64Image) {
         try {
