@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e29b2c3-cb65-449d-9899-46b7053a8034" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/SecuredMedApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/DecodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/EncodePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/WelcomePageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/service/EncryptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/utils/EncryptDecrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/utils/StageSwitcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/decode.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/encode.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/welcome.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Request" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Wv2P3K36AMaQtFT7aMTQ7V9swR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ralph/Desktop/workspace/secured-medical-data-app/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ralph\Desktop\workspace\secured-medical-data-app\src\main\resources" />
+      <recent name="C:\Users\Ralph\Desktop\workspace\secured-medical-data-app\src\main\java\com\clicks\securedmedicaldataapp" />
+      <recent name="C:\Users\Ralph\Desktop\workspace\secured-medical-data-app\src\main\resources\com\clicks\securedmedicaldataapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SecuredMedApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.clicks.securedmedicaldataapp.SecuredMedApp" />
+      <module name="secured-medical-data-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.clicks.securedmedicaldataapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SecuredMedApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e29b2c3-cb65-449d-9899-46b7053a8034" name="Changes" comment="" />
+      <created>1697598709993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697598709993</updated>
+      <workItem from="1697598711073" duration="4726000" />
+      <workItem from="1697629017427" duration="3280000" />
+      <workItem from="1697636334382" duration="6249000" />
+      <workItem from="1697650975150" duration="633000" />
+      <workItem from="1697673262517" duration="995000" />
+      <workItem from="1697675890375" duration="333000" />
+      <workItem from="1697705218904" duration="145000" />
+      <workItem from="1697705417608" duration="19962000" />
+      <workItem from="1697737988197" duration="7686000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

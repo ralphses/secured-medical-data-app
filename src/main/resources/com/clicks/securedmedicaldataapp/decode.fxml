@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clicks.securedmedicaldataapp.controller.DecodeController">
+   <children>
+      <VBox layoutX="56.0" layoutY="8.0" prefHeight="389.0" prefWidth="496.0">
+         <children>
+            <VBox prefHeight="39.0" prefWidth="496.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="26.0" prefWidth="495.0" text="Fetch data from a stegnographic image" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="332.0" prefWidth="496.0" spacing="8.0" style="-fx-border-color: black; -fx-border-radius: 5;">
+               <VBox.margin>
+                  <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+               </VBox.margin>
+               <children>
+                  <Label text="File source">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="50.0" prefWidth="457.0" spacing="5.0">
+                     <children>
+                        <TextField fx:id="pathSource" prefHeight="35.0" prefWidth="396.0" />
+                        <Button fx:id="browseSourceBtn" mnemonicParsing="false" onAction="#browseSource" prefHeight="35.0" prefWidth="72.0" text="Browse" />
+                     </children>
+                  </HBox>
+                  <Label layoutX="11.0" layoutY="11.0" text="Output folder">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="23.0" layoutY="41.0" prefHeight="50.0" prefWidth="457.0" spacing="5.0">
+                     <children>
+                        <TextField fx:id="outName" layoutX="10.0" layoutY="10.0" prefHeight="35.0" prefWidth="203.0" promptText="Enter output name">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="pathOut" prefHeight="35.0" prefWidth="194.0" />
+                        <Button fx:id="browseOutBtn" mnemonicParsing="false" onAction="#browseOut" prefHeight="35.0" prefWidth="72.0" text="Browse" />
+                     </children>
+                  </HBox>
+                  <Label text="Secrete Key">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="secreteKey" prefHeight="35.0" />
+                  <Button fx:id="submitBtn" mnemonicParsing="false" onAction="#submit" prefHeight="38.0" prefWidth="476.0" text="Submit">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="38.0" prefWidth="496.0">
+               <children>
+                  <Label alignment="BOTTOM_RIGHT" prefHeight="17.0" prefWidth="526.0" text="powered by @ClicksIT">
+                     <font>
+                        <Font name="System Italic" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
