@@ -14,7 +14,7 @@ public class SecuredMedApp extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(SecuredMedApp.class.getResource("welcome.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 900, 600);
-        stage.setTitle("Hello!");
+        stage.setTitle("Secured File Encryption");
         stage.setScene(scene);
         stage.setOnCloseRequest(winEvent -> new Alert(Alert.AlertType.CONFIRMATION, "Exit Application?")
                 .showAndWait()
@@ -28,6 +28,7 @@ public class SecuredMedApp extends Application {
         stage.show();
 
     }
+    
     public static void main(String[] args) {
         launch();
     }

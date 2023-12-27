@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.clicks.securedmedicaldataapp.controller.WelcomePageController">
+   <children>
+      <HBox layoutX="216.0" layoutY="181.0" prefHeight="250.0" prefWidth="525.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="230.0" fitWidth="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/lock.png" />
+               </image>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </ImageView>
+            <VBox prefHeight="250.0" prefWidth="267.0" spacing="20.0">
+               <children>
+                  <Button fx:id="encode" layoutX="10.0" layoutY="50.0" mnemonicParsing="false" onAction="#toEncode" prefHeight="41.0" prefWidth="255.0" style="-fx-border-color: black;" text="Encode Data">
+                     <font>
+                        <Font name="Eurostile Bold" size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="decode1" layoutX="10.0" layoutY="50.0" mnemonicParsing="false" onAction="#toDecode" prefHeight="41.0" prefWidth="255.0" style="-fx-border-color: black;" text="Decode Data">
+                     <font>
+                        <Font name="Eurostile Bold" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" top="60.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

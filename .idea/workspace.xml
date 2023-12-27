@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e29b2c3-cb65-449d-9899-46b7053a8034" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/SecuredMedApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/DecodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/EncodePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/controller/WelcomePageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/service/EncryptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/utils/EncryptDecrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/utils/StageSwitcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/decode.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/encode.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/clicks/securedmedicaldataapp/welcome.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/SecuredMedApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/clicks/securedmedicaldataapp/SecuredMedApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +28,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -76,6 +59,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -122,7 +106,21 @@
       <workItem from="1697675890375" duration="333000" />
       <workItem from="1697705218904" duration="145000" />
       <workItem from="1697705417608" duration="19962000" />
-      <workItem from="1697737988197" duration="7686000" />
+      <workItem from="1697737988197" duration="9894000" />
+      <workItem from="1697782729670" duration="226000" />
+      <workItem from="1697801278902" duration="467000" />
+      <workItem from="1697806601869" duration="584000" />
+      <workItem from="1698750135008" duration="50000" />
+      <workItem from="1698751757561" duration="716000" />
+      <workItem from="1699872941557" duration="603000" />
+      <workItem from="1699944525361" duration="32000" />
+      <workItem from="1700139755822" duration="646000" />
+      <workItem from="1700211571303" duration="135000" />
+      <workItem from="1700214585682" duration="584000" />
+      <workItem from="1701099201976" duration="744000" />
+      <workItem from="1701118826744" duration="1262000" />
+      <workItem from="1701212689119" duration="33000" />
+      <workItem from="1701292551185" duration="1141000" />
     </task>
     <servers />
   </component>
